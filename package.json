@@ -1,0 +1,19 @@
+{
+  "name": "socket-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^3.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "underscore": "^1.9.1",
+    "websocket": "^1.0.29"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mengyuan12",
+  "license": "ISC"
+}

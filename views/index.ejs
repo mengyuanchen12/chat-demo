@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>websocket-demo</title>
+  <link rel="stylesheet" href="../css/bulma.min.css">
+  <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script src="../index.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <nav id="nav-main" class="navbar is-link" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/"><strong>Chat</strong></a>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div id="output" class="container">
+
+      <div id="login-modal" class="modal is-active">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <div class="modal-card-body">
+            <div class="field">
+              <input id="user" class="input" type="text" placeholder="Username">
+            </div>
+            <!-- <div class="field">
+              <input id="password" class="input" type="password" placeholder="Password">
+            </div> -->
+            <div class="field">
+              <button id="login-btn" class="button is-link">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div id="navbar-bottom" class="navbar container is-fixed-bottom">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control is-expanded">
+            <input id="content" class="input" type="text">
+          </p>
+          <p class="control">
+            <button id="send-btn" class="button is-link">Send</button>
+          </p>
+        </div>
+      </div>
+  </div>
+
+</body>
+
+</html>
