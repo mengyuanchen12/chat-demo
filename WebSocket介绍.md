@@ -28,10 +28,10 @@ WebSocket还是建立在HTTP之上的，对于现有的服务器来说，实现W
     Origin: http://websocket.org
     Cookie: __utma=99as
     Connection: Upgrade
-Host: echo.websocket.org
-Sec-WebSocket-Key: uRovscZjNol/umbTt5uKmw==
-Upgrade: websocket
-Sec-WebSocket-Version: 13
+    Host: echo.websocket.org
+    Sec-WebSocket-Key: uRovscZjNol/umbTt5uKmw==
+    Upgrade: websocket
+    Sec-WebSocket-Version: 13
 
 - Connection 必须设置 Upgrade，表示客户端希望连接升级。
 - Upgrade 字段必须设置 Websocket，表示希望升级到 Websocket 协议。
