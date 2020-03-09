@@ -46,11 +46,11 @@ Sec-WebSocket-Version: 13
     Date: Fri, 10 Feb 2012 17:38:18 GMT
     Connection: Upgrade
     Server: Kaazing Gateway
-Upgrade: WebSocket
-Access-Control-Allow-Origin: http://websocket.org
-Access-Control-Allow-Credentials: true
-Sec-WebSocket-Accept: rLHCkw/SKsO9GAH/ZSFhBATDKrU=
-Access-Control-Allow-Headers: content-type
+    Upgrade: WebSocket
+    Access-Control-Allow-Origin: http://websocket.org
+    Access-Control-Allow-Credentials: true
+    Sec-WebSocket-Accept: rLHCkw/SKsO9GAH/ZSFhBATDKrU=
+    Access-Control-Allow-Headers: content-type
 
 此时，HTTP连接中断，并由同一底层TCP / IP连接上的WebSocket连接替换。默认情况下，WebSocket连接使用与HTTP（80）和HTTPS（443）相同的端口。
 
