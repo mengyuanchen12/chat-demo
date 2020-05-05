@@ -13,6 +13,6 @@ app.get('/', (req, res) => res.render('index'));
 
 var server = http.createServer(app);
 
-server.listen(8081, () => console.log((new Date()) + ' Server is listening on port 8080'));
+server.listen(8081, () => console.log((new Date()) + ' Server is listening on port 8081'));
 
 require('./webSocket')(server);
